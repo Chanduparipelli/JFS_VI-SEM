@@ -19,11 +19,11 @@ h2
 }
 .subject-list label{
 	display:block;
-	padding:6px 0;
+	padding:6px 1;
 	cursor: pointer;
 }
 .total-box{
-	background:#e8f0ff;
+	background:green;
 	padding:20px;
 	font-size:18px;
 	margin:15px 0;
@@ -41,4 +41,12 @@ button{
 }
 button:hover{
 	background:red;
+}
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #333;
+    background: #f3f3f3;
+    font-size: 16px;
+    white-space: pre-line;
 }

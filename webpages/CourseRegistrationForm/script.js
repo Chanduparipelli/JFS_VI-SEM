@@ -32,7 +32,8 @@ document.getElementById("regForm").addEventListener("submit",function(e){
 	"Student Name:"+studentName+"\n\n"+
 	"Selected Subjects:\n-" +selectedSubjects.join("\n- ")+"\n\n"+
 	"Total Fee:$"+totalFee;
-	alert(message);
+	// alert(message);
+	document.getElementById("result").innerText = message;
 });
 
 		
