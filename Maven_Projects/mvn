@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> archetype:3.4.1:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< archetype:3.4.1:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- archetype:3.4.1:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: D:\PAT\JFS_VISEM\Maven_Projects
+[INFO] Parameter: package, Value: com.skillnext2
+[INFO] Parameter: groupId, Value: com.skillnext2
+[INFO] Parameter: artifactId, Value: palindrome
+[INFO] Parameter: packageName, Value: com.skillnext2
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: D:\PAT\JFS_VISEM\Maven_Projects\palindrome
+[INFO] 
+[INFO] >>> archetype:3.4.1:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< archetype:3.4.1:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- archetype:3.4.1:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: D:\PAT\JFS_VISEM\Maven_Projects
+[INFO] Parameter: package, Value: com.skillnext2
+[INFO] Parameter: groupId, Value: com.skillnext2
+[INFO] Parameter: artifactId, Value: palindrome
+[INFO] Parameter: packageName, Value: com.skillnext2
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.147 s
+[INFO] Finished at: 2025-12-09T11:33:40+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-archetype-plugin:3.4.1:generate (default-cli) on project standalone-pom: Directory palindrome already exists - please run from a clean directory -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

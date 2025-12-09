@@ -1,5 +1,6 @@
 let subjects=document.querySelectorAll(".subject");
 let totalBox=document.getElementById("total");
+
 subjects.forEach(item=>{
 	item.addEventListener("change",()=>{
 		let total=0;
